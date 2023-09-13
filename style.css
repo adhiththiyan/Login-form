@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url("https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.form h1{
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid black;
+    text-shadow: 0 3px 6px  #0000007e;
+}
+.form{
+    backdrop-filter: blur(10px);
+    width: 100%;
+    background: transparent;
+    padding: 10px 50px;
+    border-radius: 5px;
+    width: 40vh;
+    border: 1px solid black;
+}
+.form button{
+    margin: 20px 10px;
+    padding: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s;
+    box-shadow: 2px 3px 5px violet;
+}
+button:hover{
+    background-color: aqua;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.input-group input{
+    margin-top: 5px;
+    outline: 0;
+    font-size: 17px;
+    padding: 8px;
+    border: 1px solid aqua;
+    background: transparent;
+    color: #fff;
+}
+.error{
+    margin-top: 5px;
+    font-size: 16px;
+    color: red;
+    opacity: 0.8;
+}
+.input-group.succes input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
+
